@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("partials/head.ejs") %>
+    <title>Riccine - Login</title>
+</head>
+<body>
+    <%- include("partials/navbar.ejs") %>
+    <form method="POST">
+        <div align="center">
+            <h1>INSERT A USERNAME AND PASSWORD</h1>
+            <input type="text" name="username" autofocus required class="form-index" placeholder="username"><br><br>
+            <input type="password" name="password" required class="form-index" placeholder="password"><br><br>
+            <input type="submit" value="INGRESAR" class="btnSubm">    
+        </div>
+    </form>
+    <% 
+        if(tryed){
+    %>
+            <center><p id="err">La clave o usuario son incorrectos</p></center>
+    <%
+        }
+    %>
+</body>
+</html>

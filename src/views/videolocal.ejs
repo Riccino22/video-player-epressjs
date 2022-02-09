@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/video.css">
+        <%- include("partials/head.ejs") %>
+        <title>Insert a video URL</title>
+    </head>
+    <body>
+        <%- include("partials/navbar.ejs") %>
+        <form method="POST">
+            <div id="URLVideoSelect">
+                <h3>Insert URL Video</h3>
+                <input type="text" name="urlVideo" placeholder="video/example.mp4  or  https://fakepage.com/example.mp4" required autofocus><br>
+                <input type="submit" value="REPRODUCIR" class="btnSubm">
+            </div>
+        </form>
+    </body>
+</html>

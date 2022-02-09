@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("partials/head.ejs") %>
+    <title><%= URLVideo %> - Video Player</title>
+</head>
+<body>
+    <%- include("partials/navbar.ejs") %>
+    <center>
+        <br>
+        <video src="<%= URLVideo %>" controls loop autofocus></video>
+    </center>
+</body>
+</html>

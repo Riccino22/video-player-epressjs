@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("partials/head.ejs") %>
+    <title>ID: <%= frameYT %> - YT Player</title>
+</head>
+<body>
+    <%- include("partials/navbar.ejs") %>
+    <div id="containerYT">
+        <iframe src="https://www.youtube.com/embed/<%- frameYT %>" title="YouTube Video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gryroscope; picture-in-picture" frameborder="0" allowfullscreen id="yt-player"></iframe>
+    </div>
+</body>
+</html>

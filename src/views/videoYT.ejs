@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/video.css">
+    <%- include("partials/head.ejs") %>
+    <title>Insert Video ID</title>
+</head>
+<body>
+    <%- include("partials/navbar.ejs") %>
+    <form method="POST">
+        <center><h1>INSTERT THE ID FROM YOUTUBE</h1>
+            <p>Example: https://youtube.com/watch?v=<font color="#f0067"><strong>(ID)</strong></font></p>
+        <input type="text" name="fromYT" placeholder="Insert ID" id="yt-ID" required autofocus><br><br>
+        <input type="submit" value="PLAY" class="btnSubm"></center>
+    </form>
+</body>
+</html>

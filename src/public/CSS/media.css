@@ -1,0 +1,68 @@
+@media (max-width : 500px){
+    textarea{
+        min-width: 90%;
+        max-width: 90%;
+    }
+} 
+
+@media (max-width : 450px){
+    #content-nav{
+        width: 70%;
+        text-align: justify;
+    }
+    #navbar{
+        height: 70px;
+    }
+}
+
+@media (max-width : 300px){
+    #yt-player{
+        width: 80%;
+        height: 150px;
+    }
+    #close{
+        width: 41vh;
+    }
+    .selection{
+        width: 41vh;
+    }
+}
+
+
+
+@media (max-width : 237px){
+    #close{
+        width: 30vh;
+    }
+    .selection{
+        width: 30vh;
+    }
+}
+
+
+@media (max-height: 450px){
+    #containerYT{
+        height: 100vh;
+    }
+}
+
+
+@media (max-height: 300px){
+    #containerYT{
+        height: 120vh;
+    }
+}
+
+
+@media (max-height: 250px){
+    #containerYT{
+        height: 150vh;
+    }
+}
+
+
+@media (max-height: 200px){
+    #containerYT{
+        height: 230vh;
+    }
+}
